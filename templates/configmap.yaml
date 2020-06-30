@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-config
+data:
+  testValue: "{{ .Values.testValue }}"
+  testQuestionValue: "{{ .Values.testQuestionValue }}"
