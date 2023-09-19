@@ -5,3 +5,15 @@ questions:
     default: "1234567890"
     required: true
     description: "Test question to demonstrate unexpected behavior"
+  - variable: intValue
+    label: Int Value
+    type: int
+    default: 7
+    min: 5
+    max: 10
+  - variable: strValue
+    label: String Value
+    type: string
+    default: "abcdefg"
+    min_length: 7
+    max_length: 10
